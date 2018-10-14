@@ -25,7 +25,7 @@ ENV BITNAMI_APP_NAME="elasticsearch" \
     ELASTICSEARCH_NODE_NAME="" \
     ELASTICSEARCH_NODE_PORT_NUMBER="9300" \
     ELASTICSEARCH_NODE_TYPE="master" \
-    ELASTICSEARCH_PLUGINS="analysis-phonetic analysis-icu" \
+    ELASTICSEARCH_PLUGINS="analysis-phonetic, analysis-icu" \
     ELASTICSEARCH_PORT_NUMBER="9200" \
     PATH="/opt/bitnami/java/bin:/opt/bitnami/elasticsearch/bin:$PATH"
 
